@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #14495e;
+  background: tan;
 }
 
 .eyes {
@@ -10,6 +10,8 @@ body {
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
+  background: tan;
+  border-radius: 50%;
 }
 .eye {
   width: 240px;
@@ -24,10 +26,28 @@ body {
 .ball {
   width: 80px;
   height: 80px;
-  background: #000;
+  background: lightblue;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
+}
+
+.pupil {
+  width: 35px;
+  height: 35px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.nose{
+  border-radius:50px 50px 50px 50px / 100px 100px 50px 50px;
+  width:70px;
+  height:100px;
+  background: red;
 }
