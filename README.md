@@ -1,6 +1,10 @@
 # Eye Balls
 
-This is an interactive code that allows the eye balls to follow your mouse around the screen.
+This is an interactive code that allows the eye balls to follow your mouse around the screen.  After completing the orignal exercise I added some css to change the eye color and background.  Also i added pupils on the eyes to make it more realistic.  In future updates I want to try and add more facial features and have each eye move independently instead of moving based off the center of the screen.
+
+## How to Run
+Open up the <a href="https://dennisamayo.github.io/Eye-Exercise/">Eye Exercise</a>.  The set of eyes will follow around your mouse screen while inside the browser.
+
 
 ## Future Releases
 
