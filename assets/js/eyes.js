@@ -4,8 +4,6 @@ document.onmousemove = (event) => {
   const x = (event.clientX * 100) / window.innerWidth + '%';
   const y = (event.clientY * 100) / window.innerHeight + '%';
 
-  console.log(x + ' / ' + y);
-
   for (let i = 0; i <= 1; i++) {
     balls[i].style.left = x;
     balls[i].style.top = y;

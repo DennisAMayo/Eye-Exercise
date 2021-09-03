@@ -44,10 +44,3 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-
-.nose{
-  border-radius:50px 50px 50px 50px / 100px 100px 50px 50px;
-  width:70px;
-  height:100px;
-  background: red;
-}
